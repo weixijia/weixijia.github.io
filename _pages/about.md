@@ -27,8 +27,8 @@ Research Interests
 ======
 <ul>
 <li>Multimodal Machine Learning</li>
+<li>Self-supervised Learning</li>
 <li>Generative AI</li>
-<li>Domain Adaption</li>
 <li>Ubiquitious Computing</li>
 <li>Multisensory Systems</li>
 <li>Radar Systems</li>
@@ -41,9 +41,11 @@ Research Interests
 
 News
 ======
-[Nov. 2023] I served as a AC reviewer for [IMWUT](https://dl.acm.org/journal/imwut).
+[Apr. 2024] I passed my PhD upgrade viva!
 
-[Oct. 2023] I served as a AC reviewer for [CHI'2024](https://chi2024.acm.org/).
+[Nov. 2023] I served as an AC reviewer for [IMWUT](https://dl.acm.org/journal/imwut).
+
+[Oct. 2023] I served as an AC reviewer for [CHI'2024](https://chi2024.acm.org/).
 
 [Sept. 2023] Two Papers accepted at ACII 2023
 My first-author paper on non-intrusive wireless signal based protective behaviour recognition has been accepted "Leveraging WiFi Sensing toward Automatic Recognition of Protective Behaviors".
@@ -51,7 +53,7 @@ See you MIT Media Lab, Cambridge, MA, USA.
 [Link](https://acii-conf.net/2023/)
 
 [June. 2023] Research Internship at Nokia Bell Labs Cambridge.
-I started my PhD research intern at the prestigious [Bell Labs](https://www.bell-labs.com/about/locations/cambridge-uk/) at Cambridge during this summer!
+I started my PhD research internship at the prestigious [Bell Labs](https://www.bell-labs.com/about/locations/cambridge-uk/) at Cambridge this summer!
 
 [May. 2023] I served as a PC member for [ACII'2023](https://acii-conf.net/).
 
