@@ -16,7 +16,7 @@ redirect_from:
 
 About Me
 ======
-I am currently a PhD student at University College London (UCL) under the supervision of 
+I am currently a PhD student at the University College London (UCL) under the supervision of 
 <a href="https://profiles.ucl.ac.uk/3849-nadia-berthouze" style="color:#5dbcd2;">Prof Nadia Berthouze</a>, <a href="https://profiles.ucl.ac.uk/54637-youngjun-cho" style="color:#5dbcd2;">Prof Youngjun Cho</a> and <a href="https://profiles.ucl.ac.uk/6806-kevin-chetty" style="color:#5dbcd2;">Prof Kevin Chetty</a>. I focus on developing machine learning algorithms for novel sensing systems in healthcare. I am investigating multimodal machine learning to allow the model to automatically learn communicative features from multisensory data without human intervention and the need for label-hungary labelled data towards robust performances under various real-life scenarios. I am currently developing a novel RF-fusion sensing system that can recognise and understand human body behaviours across various domains.
 
 I also serve as a visiting scholar at <a href="[https://www.eng.ed.ac.uk/about/people/prof-tughrul-arslan/](https://www.bell-labs.com/about/locations/cambridge-uk/#gref)" style="color:#5dbcd2;">Nokia Bell Labs</a> after I did my PhD internship, where I worked on acoustic sensing in healthcare.
@@ -41,7 +41,7 @@ Research Interests
 
 News
 ======
-[May. 2024] I gave a talk at UCL EE Department about my research on wireless sensing for healthcare.
+[May. 2024] I gave a talk at UCL EE Department regarding wireless sensing for healthcare.
 
 [Apr. 2024] I passed my PhD upgrade viva!
 
@@ -97,6 +97,3 @@ See you in Pisa, Italy.
 Work with Valentin Radu, "End-to-End Machine Learning for Smartphone-based Indoor Localisation and Tracking using Recurrent Neural Networks".
 See you in Cambridge, UK.
 [Link](https://weixijia.github.io/talks/mobiuk2018-talk)
-
-
-i want to make my news fold, and only show top 5 news
