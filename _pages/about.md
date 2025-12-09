@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 <div class="fade-in-up" style="animation-delay: 0.2s">
-  <h1>About Me</h1>
   <p>I am a PhD candidate (writing up) at University College London (UCL) under the supervision of <a href="https://profiles.ucl.ac.uk/3849-nadia-berthouze">Prof Nadia Berthouze</a>, <a href="https://profiles.ucl.ac.uk/54637-youngjun-cho">Prof Youngjun Cho</a>, and <a href="https://profiles.ucl.ac.uk/6806-kevin-chetty">Prof Kevin Chetty</a>. I focus on developing machine learning algorithms for novel sensing systems in healthcare. I am investigating multimodal machine learning to allow models to automatically learn communicative features from multisensory data without human intervention and the need for label-hungry labelled data, towards robust performance under various real-life scenarios. I am currently developing a novel multisensory sensing system that can recognise and understand human body behaviours across various domains.</p>
   
   <p>Prior to joining UCL, I studied Artificial Intelligence (MSc) under the supervision of <a href="https://vradu.uk/">Dr Valentin Radu</a> and Electronics and Electrical Engineering (BEng), supervised by <a href="https://www.eng.ed.ac.uk/about/people/prof-tughrul-arslan">Prof Tughrul Arslan</a>, at the University of Edinburgh.</p>
@@ -30,7 +29,7 @@ redirect_from:
   <p><strong>[May 2024]</strong> I gave a talk at the UCL EE Department on wireless sensing for healthcare.</p>
 
   <details>
-    <summary style="cursor: pointer; color: #007bff; font-weight: bold; margin-bottom: 1em;">Show older news...</summary>
+    <summary style="cursor: pointer; color: #007bff; font-weight: bold; margin-bottom: 1em;">Show more news...</summary>
 
     <p><strong>[Apr. 2024]</strong> I passed my PhD upgrade viva!</p>
 
