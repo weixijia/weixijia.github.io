@@ -2,7 +2,6 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-paperurl: 'https://xijiawei.com/files/CV.pdf'
 author_profile: true
 redirect_from:
   - /resume
