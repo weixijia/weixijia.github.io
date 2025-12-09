@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-paperurl: 'http://weixijia.github.io/files/CV.pdf'
+paperurl: 'https://xijiawei.com/files/CV.pdf'
 author_profile: true
 redirect_from:
   - /resume
@@ -71,7 +71,7 @@ WORK EXPERIENCE
 
 * Embedded Software Engineer @GUOZI Robots Automation Research Lab University of Zhejiang (Jun. 2016 - Aug. 2016)
   * Optimise the stability and efficiency of the control system of the chassis of the inspection robots
-  * Improve system’s efficiency of 33% by self-clustering operating situations
+  * Improve system's efficiency of 33% by self-clustering operating situations
 
 * Mobile Software Engineer @Institute for Digital Communications, University of Edinburgh (Mar. 2016 - Dec. 2016)
   * Movement data collection and processing based on wearable devices
@@ -86,4 +86,4 @@ WORK EXPERIENCE
 
 Résumé
 ======
-[Download CV here](http://weixijia.github.io/files/CV.pdf)
+[Download CV here](https://xijiawei.com/files/CV.pdf)
