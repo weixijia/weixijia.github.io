@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Leveraging WiFi Sensing Toward Automatic Recognition of Pain Behaviors<br />ACII 2023.; MIT, US",
+    "Leveraging WiFi Sensing Toward Automatic Recognition of Pain Behaviors<br />ACII 2023; MIT, US",
     42.3582529,
     -71.0966272
   ],
@@ -10,7 +10,7 @@ var addressPoints = [
     0.1186637
   ],
   [
-    "Leveraging Transfer Learning for Robust Multimodal Positioning Systems using Smartphone Multi-sensor Data<br />the Aerospace Information Research Institute, Chinese Academy of Sciences.; Beijing, China",
+    "Leveraging Transfer Learning for Robust Multimodal Positioning Systems using Smartphone Multi-sensor Data<br />the Aerospace Information Research Institute, Chinese Academy of Sciences; Beijing, China",
     40.190632,
     116.412144
   ],
