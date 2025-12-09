@@ -1,27 +1,22 @@
 var addressPoints = [
   [
-    "Leveraging WiFi Sensing Toward Automatic Recognition of Pain Behaviors<br />ACII 2023; MIT, US",
-    42.3582529,
-    -71.0966272
+    "From Single Modality to Modality Fusion: The First Step Towards Robust Multisensory Based Localization<br />The Hong Kong Polytechnic University, Engineering Dept.; Hong Kong, China",
+    22.350627,
+    114.1849161
   ],
   [
-    "An infrastructure-free smartphone locationing system using inertial sensor data<br />University of Cambridge, Department of Computer Science and Technology; Cambridge, UK",
-    52.2055314,
-    0.1186637
+    "End-to-end Multimodal Hybrid Neural Network for Sensor-fusion Systems<br />Huawei Consumer BG; Shenzhen, China",
+    22.5445741,
+    114.0545429
   ],
   [
-    "Leveraging Transfer Learning for Robust Multimodal Positioning Systems using Smartphone Multi-sensor Data<br />the Aerospace Information Research Institute, Chinese Academy of Sciences; Beijing, China",
-    40.190632,
-    116.412144
+    "Non-intrusive Multimodal Sensing with LLM for Human Understanding<br />University of Macau, Science & Computing Science Dept.; Macau, China",
+    22.1757605,
+    113.5514142
   ],
   [
-    "An end-to-end multimodal deep neural network based smartphone cross-sensor tracking system<br />Universitat Oberta de Catalunya, Faculty of Computer Science, Multimedia and Telecommunications; Lloret de Mar, Spain",
-    41.6973503,
-    2.8392392
-  ],
-  [
-    "How recurrent neural network performs like pedestrian dead reckoning for indoor positioning<br />University of Pisa, Department of Computer Science; Pisa, Italy",
-    43.4714722,
-    10.6797912
+    "Towards Self Supervision for Sensing and Understanding Human Behaviours<br />University College London, Computing Science Dept.; London, UK",
+    51.5074456,
+    -0.1277653
   ]
 ];
