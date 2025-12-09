@@ -23,7 +23,7 @@ repository               : "weixijia/weixijia.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Xijia (Simon) Wei <br />魏熙佳"
+  name             : "Xijia Wei"
   pronouns         : # example: "she/her"  
   bio              : "PhD in ML @UCL\n Visiting Scholar @Bell Labs"
   location         : "London, UK"
@@ -63,7 +63,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "simonwxj/"
+  instagram        : #"simonwxj/"
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL

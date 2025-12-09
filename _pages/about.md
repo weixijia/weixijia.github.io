@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Xijia Wei - PhD Candidate at UCL"
+title: "Xijia Wei"
 author_profile: true
 redirect_from: 
   - /about/
