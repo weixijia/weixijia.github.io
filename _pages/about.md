@@ -22,7 +22,7 @@ redirect_from:
 
   <p><strong>[Oct. 2025]</strong> I presented four works at the 2025 MobiCom Conference on wireless sensing for human tracking, behaviour recognition, novel sensing applications, and an open-source multimodal sensing platform.</p>
 
-  <p><strong>[Oct. 2025]</strong> I presented our work on acoustic sensing for auditory cognitive load measurement at the 2025 UbiComp Conference.</p>
+  <p><strong>[Oct. 2025]</strong> I presented our work on acoustic sensing for auditory cognitive load measurement at the 2025 UbiComp Conference. This work was done in collaboration with Nokia Bell Labs.</p>
 
   <p><strong>[Aug. 2025]</strong> I served as an AC reviewer for <a href="https://aaai.org/">AAAI</a>.</p>
 
