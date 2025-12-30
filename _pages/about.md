@@ -18,6 +18,8 @@ redirect_from:
 <div class="fade-in-up" style="animation-delay: 0.4s">
   <h1>News</h1>
   
+  <p><strong>[Dec. 2025]</strong> Our paper "Listening to the Mind: Earable Acoustic Sensing of Cognitive Load" has been published in UbiComp Companion 2025! <a href="https://doi.org/10.1145/3714394.3756157">Link</a></p>
+
   <p><strong>[Nov. 2025]</strong> I gave a talk at the University of Macau on multimodal self-supervised learning applied to the healthcare domain.</p>
 
   <p><strong>[Oct. 2025]</strong> I presented four works at the 2025 MobiCom Conference on wireless sensing for human tracking, behaviour recognition, novel sensing applications, and an open-source multimodal sensing platform.</p>
