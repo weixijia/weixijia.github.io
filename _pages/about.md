@@ -17,6 +17,8 @@ redirect_from:
 
 <div class="fade-in-up" style="animation-delay: 0.4s">
   <h1>News</h1>
+
+  <p><strong>[Feb. 2026]</strong> Our work on earable acoustic sensing for cognitive load monitoring was featured by <a href="https://eng.unimelb.edu.au/ingenium/health-technologies/earbuds-can-be-used-to-monitor-brain-health-new-research-finds">Ingenium</a> and <a href="https://www.scimex.org/newsfeed/earbuds-can-be-used-to-monitor-brain-health-new-research-finds">Scimex</a>. <a href="https://eng.unimelb.edu.au/ingenium/health-technologies/earbuds-can-be-used-to-monitor-brain-health-new-research-finds">Link</a></p>
   
   <p><strong>[Dec. 2025]</strong> Our paper "Listening to the Mind: Earable Acoustic Sensing of Cognitive Load" has been published in UbiComp Companion 2025! <a href="https://doi.org/10.1145/3714394.3756157">Link</a></p>
 
