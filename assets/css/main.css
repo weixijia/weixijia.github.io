@@ -165,14 +165,6 @@ p { margin: 0 0 1rem; }
   margin-bottom: 1.1rem;
 }
 
-.portrait {
-  width: 122px;
-  height: auto;
-  border-radius: 3px;
-  margin-top: 0.55rem;
-  flex-shrink: 0;
-}
-
 .linkrow {
   font-family: var(--mono);
   font-size: 0.74rem;
@@ -319,8 +311,6 @@ footer a { color: inherit; }
 
 @media (max-width: 34rem) {
   body { padding-top: 2.2rem; }
-  .masthead { flex-direction: column-reverse; gap: 1.1rem; }
-  .portrait { width: 96px; }
   .news > div, .entry { grid-template-columns: 1fr; }
   .news dt, .entry .when { padding-top: 0; }
 }
