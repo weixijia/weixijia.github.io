@@ -3,6 +3,9 @@ title: "COMP0137 - Machine Vision"
 collection: teaching
 type: "Taught postgraduate"
 permalink: /teaching/machine-vision
+layout: redirect
+target: "/teaching/#machine-vision"
+sitemap: false
 venue: "University College London"
 location: "London, UK"
 ---

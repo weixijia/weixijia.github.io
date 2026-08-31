@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: /cv/
+permalink: /resume/
 target: "/"
 sitemap: false
 ---

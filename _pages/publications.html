@@ -1,36 +1,31 @@
 ---
-layout: archive
+layout: default
 title: "Publications"
+description: "Publications by Xijia Wei."
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<header class="pagehead">
+  <h1>Publications</h1>
+  <p class="tagline">Also on <a href="{{ site.author.scholar }}">Google Scholar</a>.</p>
+</header>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign by_year = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for group in by_year %}
+<p class="year">{{ group.name }}</p>
+  {% for pub in group.items %}
+  {% assign slug = pub.permalink | split: "/" | last %}
+  <div class="pub" id="{{ slug }}">
+    <p class="title">{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title | escape }}</a>{% elsif pub.pdf %}<a href="{{ pub.pdf }}">{{ pub.title | escape }}</a>{% else %}{{ pub.title | escape }}{% endif %}</p>
+    <p class="authors">{{ pub.authors | escape | replace: "Xijia Wei", '<span class="me">Xijia Wei</span>' }}</p>
+    <p class="where">{{ pub.venue_short | default: pub.venue | escape }}{% if pub.pdf %}<a class="reflink" href="{{ pub.pdf }}">[pdf]</a>{% endif %}{% if pub.link %}<a class="reflink" href="{{ pub.link }}">[link]</a>{% endif %}</p>
+    {% if pub.citation %}
+    <details class="cite">
+      <summary>cite</summary>
+      <p>{{ pub.citation }}</p>
+    </details>
+    {% endif %}
+  </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% endfor %}

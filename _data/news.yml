@@ -1,0 +1,63 @@
+# News items, newest first. `text` is rendered as markdown.
+- date: "Feb 2026"
+  text: "Our research on earable acoustic sensing of cognitive load was featured by [Scimex (Science Media Exchange)](https://www.scimex.org/newsfeed/earbuds-can-be-used-to-monitor-brain-health-new-research-finds) and [Ingenium (Official Press of the University of Melbourne)](https://eng.unimelb.edu.au/ingenium/health-technologies/earbuds-can-be-used-to-monitor-brain-health-new-research-finds), highlighting the potential of everyday earbuds for real-time brain health monitoring. [Paper](https://doi.org/10.1145/3714394.3756157)"
+- date: "Dec 2025"
+  text: 'Our paper "Listening to the Mind: Earable Acoustic Sensing of Cognitive Load" has been published in UbiComp Companion 2025. [Link](https://doi.org/10.1145/3714394.3756157)'
+- date: "Nov 2025"
+  text: "I gave a talk at the University of Macau on multimodal self-supervised learning applied to the healthcare domain."
+- date: "Oct 2025"
+  text: "I presented four works at MobiCom 2025 on wireless sensing for human tracking, behaviour recognition, novel sensing applications, and an open-source multimodal sensing platform."
+- date: "Oct 2025"
+  text: "I presented our work on acoustic sensing for auditory cognitive load measurement at UbiComp 2025, done in collaboration with Nokia Bell Labs."
+- date: "Aug 2025"
+  text: "I served as an AC reviewer for [AAAI](https://aaai.org/)."
+- date: "May 2024"
+  text: "I gave a talk at the UCL EE Department on wireless sensing for healthcare."
+- date: "Apr 2024"
+  text: "I passed my PhD upgrade viva."
+  old: true
+- date: "Nov 2023"
+  text: "I served as an AC reviewer for [IMWUT](https://dl.acm.org/journal/imwut)."
+  old: true
+- date: "Oct 2023"
+  text: "I served as an AC reviewer for [CHI 2024](https://chi2024.acm.org/)."
+  old: true
+- date: "Sep 2023"
+  text: 'Two papers accepted at [ACII 2023](https://acii-conf.net/2023/), including my first-author paper "Leveraging WiFi Sensing toward Automatic Recognition of Protective Behaviors". See you at MIT Media Lab, Cambridge, MA.'
+  old: true
+- date: "Jun 2023"
+  text: "I started my PhD research internship at [Nokia Bell Labs](https://www.bell-labs.com/about/locations/cambridge-uk/) in Cambridge this summer."
+  old: true
+- date: "May 2023"
+  text: "I served as a PC member for [ACII 2023](https://acii-conf.net/)."
+  old: true
+- date: "Apr 2023"
+  text: "I passed my first-year viva on the topic of wireless human sensing."
+  old: true
+- date: "Sep 2022"
+  text: 'I gave a talk at HK PolyU on "Machine-learning based Sensor-fusion Localization". [Link](https://www.polyu.edu.hk/en/aae/news-and-events/event/2022/9/27---research-seminar/)'
+  old: true
+- date: "Aug 2022"
+  text: 'Paper accepted at IPIN 2022, joint work with Valentin Radu: "Leveraging Transfer Learning for Robust Multimodal Positioning Systems based on Smartphone Multisensory Data". See you in Beijing.'
+  old: true
+- date: "May 2022"
+  text: "I joined the UCL Interaction Centre (UCLIC) for my PhD adventure."
+  old: true
+- date: "Apr 2022"
+  text: 'Paper accepted at [MobiUK 2022](https://mobiuk.org/2022/), joint work with Valentin Radu: "MMLoc+: A Transfer Learning based Multimodal Machine Learning Localization System for Dynamic Sensor Networks".'
+  old: true
+- date: "Jan 2022"
+  text: 'Paper published in IEEE, joint work with Zhiqiang Wei and Valentin Radu: "MM-Loc: Cross-sensor Indoor Smartphone Location Tracking using Multimodal Deep Neural Networks". [Link](https://ieeexplore.ieee.org/document/9662519/)'
+  old: true
+- date: "Oct 2021"
+  text: 'Journal article accepted in Sensors, joint work with Zhiqiang Wei and Valentin Radu: "Sensor-fusion for Smartphone Location Tracking using Hybrid Multimodal Deep Neural Networks". [Link](https://www.mdpi.com/1424-8220/21/22/7488)'
+  old: true
+- date: "Sep 2021"
+  text: 'Paper accepted at IPIN 2021: "MM-Loc: Cross-sensor Indoor Smartphone Location Tracking using Multimodal Deep Neural Networks". [Video](https://www.youtube.com/watch?v=7YTxaOnCph8)'
+  old: true
+- date: "Jul 2019"
+  text: 'Paper accepted at IPIN 2019, joint work with Valentin Radu: "Calibrating Recurrent Neural Networks on Smartphone Inertial Sensors for Location Tracking". See you in Pisa.'
+  old: true
+- date: "Aug 2018"
+  text: 'Paper accepted at MobiUK 2018, joint work with Valentin Radu: "End-to-End Machine Learning for Smartphone-based Indoor Localisation and Tracking using Recurrent Neural Networks". See you in Cambridge.'
+  old: true

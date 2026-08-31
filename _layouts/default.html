@@ -1,31 +1,69 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != site.title %}{{ page.title | escape }} · {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon-180x180.png">
+  <script>
+    /* apply stored theme before first paint to avoid a flash */
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "dark" || t === "light") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <nav class="sitenav">
+    <a class="home" href="/">Xijia Wei</a>
+    <a href="/" {% if page.url == "/" %}class="active" aria-current="page"{% endif %}>about</a>
+    <a href="/publications/" {% if page.url == "/publications/" %}class="active" aria-current="page"{% endif %}>publications</a>
+    <a href="/talks/" {% if page.url == "/talks/" %}class="active" aria-current="page"{% endif %}>talks</a>
+    <a href="/teaching/" {% if page.url == "/teaching/" %}class="active" aria-current="page"{% endif %}>teaching</a>
+    <a href="/experience/" {% if page.url == "/experience/" %}class="active" aria-current="page"{% endif %}>experience</a>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark theme"></button>
+  </nav>
+  <main id="content">
     {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+  </footer>
+  <script>
+    (function () {
+      var btn = document.getElementById("theme-toggle");
+      var media = window.matchMedia("(prefers-color-scheme: dark)");
+      function current() {
+        return document.documentElement.dataset.theme || (media.matches ? "dark" : "light");
+      }
+      function paint() {
+        /* show the sun in dark mode, the moon in light mode (text glyphs, not emoji) */
+        btn.textContent = current() === "dark" ? "☀︎" : "☾︎";
+      }
+      btn.addEventListener("click", function () {
+        var next = current() === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem("theme", next); } catch (e) {}
+        paint();
+      });
+      media.addEventListener("change", paint);
+      paint();
+    })();
+  </script>
+</body>
 </html>

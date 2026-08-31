@@ -1,12 +1,21 @@
 ---
-layout: archive
+layout: default
 title: "Teaching"
+description: "Teaching by Xijia Wei at UCL."
 permalink: /teaching/
-author_profile: true
 ---
 
-{% include base_path %}
+<header class="pagehead">
+  <h1>Teaching</h1>
+</header>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign courses = site.teaching | sort: "title" %}
+{% for course in courses %}
+<div class="entry" id="{{ course.permalink | split: '/' | last }}">
+  <span class="when">UCL</span>
+  <div class="what">
+    <span class="head">{{ course.title | escape }}</span>
+    <span class="sub">{{ course.content | strip_html | strip }} <a class="reflink" href="{{ course.content | split: 'href="' | last | split: '"' | first }}">[link]</a></span>
+  </div>
+</div>
 {% endfor %}

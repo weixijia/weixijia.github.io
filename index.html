@@ -1,0 +1,69 @@
+---
+layout: default
+title: "Xijia Wei"
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<header class="masthead">
+  <div class="intro">
+    <h1>Xijia Wei</h1>
+    <p class="tagline">PhD in Machine Learning at University College London.</p>
+    <p class="linkrow">
+      <a href="mailto:{{ site.author.email }}">email</a> &nbsp;/&nbsp;
+      <a href="{{ site.author.scholar }}">google scholar</a> &nbsp;/&nbsp;
+      <a href="{{ site.author.github }}">github</a> &nbsp;/&nbsp;
+      <a href="{{ site.author.orcid }}">orcid</a>
+    </p>
+  </div>
+  <img class="portrait" src="/images/profile.png" alt="Portrait of Xijia Wei" width="122">
+</header>
+
+<div class="bio">
+  <p>I am a PhD candidate (writing up) at University College London, supervised by
+  <a href="https://profiles.ucl.ac.uk/3849-nadia-berthouze">Prof Nadia Berthouze</a>,
+  <a href="https://profiles.ucl.ac.uk/54637-youngjun-cho">Prof Youngjun Cho</a>, and
+  <a href="https://profiles.ucl.ac.uk/6806-kevin-chetty">Prof Kevin Chetty</a>.
+  I develop machine learning algorithms for novel sensing systems in healthcare. My research
+  investigates multimodal machine learning that lets models learn communicative features from
+  multisensory data without human intervention or label-hungry annotated datasets, towards robust
+  performance in real-life scenarios. I am currently building a multisensory sensing system that
+  recognises and understands human body behaviours across domains.</p>
+
+  <p>Before UCL, I studied Artificial Intelligence (MSc) under
+  <a href="https://vradu.uk/">Dr Valentin Radu</a> and Electronics and Electrical Engineering
+  (BEng) under <a href="https://www.eng.ed.ac.uk/about/people/prof-tughrul-arslan">Prof Tughrul Arslan</a>,
+  both at the University of Edinburgh.</p>
+</div>
+
+<section id="news">
+  <h2>News</h2>
+  <dl class="news">
+    {% for item in site.data.news %}{% unless item.old %}
+    <div>
+      <dt>{{ item.date }}</dt>
+      <dd>{{ item.text | markdownify }}</dd>
+    </div>
+    {% endunless %}{% endfor %}
+  </dl>
+  <details class="more-news">
+    <summary>more</summary>
+    <dl class="news">
+      {% for item in site.data.news %}{% if item.old %}
+      <div>
+        <dt>{{ item.date }}</dt>
+        <dd>{{ item.text | markdownify }}</dd>
+      </div>
+      {% endif %}{% endfor %}
+    </dl>
+  </details>
+</section>
+
+<section id="service">
+  <h2>Academic service</h2>
+  <ul class="plain">
+    <li>AC reviewer: AAAI (2025), CHI 2024, IMWUT (2023)</li>
+    <li>PC member: ACII 2023</li>
+  </ul>
+</section>

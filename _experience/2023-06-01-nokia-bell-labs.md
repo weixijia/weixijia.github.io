@@ -2,6 +2,9 @@
 title: "Research Scientist (PhD Internship)"
 collection: experience
 permalink: /experience/2023-nokia-bell-labs
+layout: redirect
+target: "/experience/#2023-nokia-bell-labs"
+sitemap: false
 venue: "Nokia Bell Labs"
 location: "Cambridge, UK"
 date: 2023-06-01

@@ -1,16 +1,21 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: default
+title: "Talks"
+description: "Invited talks by Xijia Wei."
 permalink: /talks/
-author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<header class="pagehead">
+  <h1>Invited talks</h1>
+</header>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% for talk in talks %}
+<div class="entry" id="{{ talk.permalink | split: '/' | last }}">
+  <span class="when">{{ talk.date | date: "%b %Y" }}</span>
+  <div class="what">
+    <span class="head">{{ talk.title | escape }}</span>
+    <span class="sub">{{ talk.venue | escape }} &middot; {{ talk.location | escape }}</span>
+  </div>
+</div>
 {% endfor %}

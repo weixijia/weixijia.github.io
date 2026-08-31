@@ -2,6 +2,9 @@
 title: "AI Researcher"
 collection: experience
 permalink: /experience/2018-edinburgh
+layout: redirect
+target: "/experience/#2018-edinburgh"
+sitemap: false
 venue: "University of Edinburgh"
 location: "Edinburgh, UK"
 date: 2018-11-01

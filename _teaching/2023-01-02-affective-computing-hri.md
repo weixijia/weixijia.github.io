@@ -3,6 +3,9 @@ title: "COMP0053 - Affective Computing and Human-Robot Interaction"
 collection: teaching
 type: "Taught postgraduate"
 permalink: /teaching/affective-computing-hri
+layout: redirect
+target: "/teaching/#affective-computing-hri"
+sitemap: false
 venue: "University College London"
 location: "London, UK"
 ---

@@ -1,0 +1,12 @@
+{% assign target = page.target | default: page.redirect.to %}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="{{ target | absolute_url }}">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+</head>
+<body>
+  <p><a href="{{ target }}">Continue to xijiawei.com</a></p>
+</body>
+</html>

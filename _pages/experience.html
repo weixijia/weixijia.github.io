@@ -1,12 +1,22 @@
 ---
-layout: archive
+layout: default
 title: "Experience"
+description: "Work and research experience of Xijia Wei."
 permalink: /experience/
-author_profile: true
 ---
 
-{% include base_path %}
+<header class="pagehead">
+  <h1>Experience</h1>
+</header>
 
-{% for post in site.experience reversed %}
-  {% include archive-single.html %}
+{% assign jobs = site.experience | sort: "date" | reverse %}
+{% for job in jobs %}
+<div class="entry" id="{{ job.permalink | split: '/' | last }}">
+  <span class="when">{{ job.date | date: "%Y" }}</span>
+  <div class="what">
+    <span class="head">{{ job.title | escape }}</span>
+    <span class="sub">{{ job.venue | escape }} &middot; {{ job.location | escape }}</span>
+    {% if job.content and job.content != "" %}<div class="detail">{{ job.content }}</div>{% endif %}
+  </div>
+</div>
 {% endfor %}
