@@ -40,8 +40,10 @@ Layout
 - The only other script is a cookieless visit beacon (inline in the layout)
   that posts the path, referrer and `?ref=` source to the self-hosted counter
   at `stats.xijiawei.com` (the `visitor-stats` service on asusuclic). It skips
-  Do Not Track / Global Privacy Control and non-production hosts; the footer
-  states that IP addresses are not stored.
+  Do Not Track / Global Privacy Control and non-production hosts. The privacy
+  notice lives at `/privacy/`, linked from the footer.
+- The homepage ends with the live readership card (`stats.xijiawei.com/card.svg`),
+  one `<img>` per colour scheme, switched by the same `data-theme` rules.
 
 Type
 - Body: Newsreader (400/500/600 + italic), fallback Georgia/serif, 17px, 1.6.

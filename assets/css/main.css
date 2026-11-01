@@ -291,6 +291,24 @@ details.more-news > summary::-webkit-details-marker { display: none; }
 .plain { list-style: none; margin: 0; padding: 0; }
 .plain li { font-size: 0.95rem; margin-bottom: 0.45rem; }
 
+/* ---------- readership card ---------- */
+
+/* The SVG is 820px wide with 24px inner padding; widen it so its content aligns with the text column. */
+.readership-card {
+  display: block;
+  width: calc(100% * 820 / 772);
+  max-width: none;
+  height: auto;
+  margin: 2.5rem 0 0 calc(-100% * 24 / 772);
+}
+.readership-card.dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .readership-card.light { display: none; }
+  :root:not([data-theme="light"]) .readership-card.dark { display: block; }
+}
+:root[data-theme="dark"] .readership-card.light { display: none; }
+:root[data-theme="dark"] .readership-card.dark { display: block; }
+
 /* ---------- footer ---------- */
 
 footer {
