@@ -34,10 +34,14 @@ Layout
 - Single centered column, `max-width: 44rem`.
 - Sections separated by hairline rules, not boxes or cards.
 - Interactive elements: native `<details>` disclosures (news, citations) and
-  a light/dark toggle in the nav. The toggle is the site's only JavaScript
-  (~20 lines inline in the layout): it sets `data-theme` on the root element
-  and remembers the choice in `localStorage`; with no stored choice the site
-  follows `prefers-color-scheme`.
+  a light/dark toggle in the nav. The toggle (~20 lines inline in the layout)
+  sets `data-theme` on the root element and remembers the choice in
+  `localStorage`; with no stored choice the site follows `prefers-color-scheme`.
+- The only other script is a cookieless visit beacon (inline in the layout)
+  that posts the path, referrer and `?ref=` source to the self-hosted counter
+  at `stats.xijiawei.com` (the `visitor-stats` service on asusuclic). It skips
+  Do Not Track / Global Privacy Control and non-production hosts; the footer
+  states that IP addresses are not stored.
 
 Type
 - Body: Newsreader (400/500/600 + italic), fallback Georgia/serif, 17px, 1.6.

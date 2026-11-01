@@ -42,7 +42,30 @@
   </main>
   <footer>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    <p>Visits are counted without cookies; IP addresses are resolved to an approximate city and network, then discarded; visit records are kept for 400 days.</p>
   </footer>
+  <script>
+    /* Cookieless visit counter (self-hosted). Honours Do Not Track and Global Privacy Control. */
+    (function () {
+      if (navigator.doNotTrack === "1" || navigator.globalPrivacyControl) return;
+      if (!/(^|\.)xijiawei\.com$/.test(location.hostname)) return;
+      var endpoint = "https://stats.xijiawei.com/hit";
+      var query = new URLSearchParams(location.search);
+      function send(data) {
+        var body = JSON.stringify(data);
+        if (!(navigator.sendBeacon && navigator.sendBeacon(endpoint, body))) {
+          fetch(endpoint, { method: "POST", body: body, keepalive: true, mode: "no-cors" }).catch(function () {});
+        }
+      }
+      send({ path: location.pathname, ref: document.referrer, src: query.get("ref") || query.get("utm_source") || "" });
+      document.addEventListener("click", function (event) {
+        var link = event.target.closest && event.target.closest("a[href]");
+        if (link && /\.pdf($|\?)|doi\.org|ieeexplore|dl\.acm\.org|mdpi\.com|arxiv\.org/.test(link.href)) {
+          send({ kind: "click", path: location.pathname, target: link.href });
+        }
+      });
+    })();
+  </script>
   <script>
     (function () {
       var btn = document.getElementById("theme-toggle");
